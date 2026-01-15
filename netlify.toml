@@ -1,0 +1,18 @@
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/leistungen"
+  to = "/leistungen.html"
+  status = 200
+
+[[redirects]]
+  from = "/ueber-mich"
+  to = "/ueber-mich.html"
+  status = 200
+
+[[redirects]]
+  from = "/kontakt"
+  to = "/kontakt.html"
+  status = 200
+

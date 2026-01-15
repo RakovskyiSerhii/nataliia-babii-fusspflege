@@ -196,6 +196,20 @@ p {
   display: block;
 }
 
+.logo-img {
+  height: 140px;
+  width: auto;
+  transition: transform var(--transition-normal);
+}
+
+.logo-img:hover {
+  transform: scale(1.05);
+}
+
+.logo-img.small {
+  height: 200px;
+}
+
 .logo-badge {
   display: flex;
   flex-direction: column;
@@ -1051,6 +1065,14 @@ p {
   .nav-list a {
     font-size: 1.125rem;
     padding: var(--spacing-sm) 0;
+  }
+  
+  .logo-img {
+    height: 100px;
+  }
+  
+  .logo-img.small {
+    height: 150px;
   }
   
   .logo-badge {
