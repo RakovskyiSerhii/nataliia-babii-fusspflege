@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt | Fußpflege Studio von Nataliia Babii</title>
+  <meta name="description" content="Kontaktieren Sie Nataliia Babii für einen Termin. Fußpflege in Schneverdingen. Telefon: +49 151 208 43 434">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <div class="logo-badge">
+          <span class="logo-title">Fußpflege<br>Studio</span>
+          <span class="logo-subtitle">von Nataliia Babii</span>
+        </div>
+      </a>
+      <nav class="nav">
+        <button class="nav-toggle" aria-label="Menü öffnen">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-list">
+          <li><a href="index.html" data-i18n="nav.home">Startseite</a></li>
+          <li><a href="leistungen.html" data-i18n="nav.services">Leistungen</a></li>
+          <li><a href="ueber-mich.html" data-i18n="nav.about">Über mich</a></li>
+          <li><a href="kontakt.html" class="active" data-i18n="nav.contact">Kontakt</a></li>
+        </ul>
+        <div class="lang-selector">
+          <button class="lang-btn active" data-lang="de">DE</button>
+          <button class="lang-btn" data-lang="uk">UA</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="container">
+      <h1 data-i18n="nav.contact">Kontakt</h1>
+      <p data-i18n="page.contact.subtitle">Vereinbaren Sie Ihren Termin oder stellen Sie Ihre Fragen</p>
+    </div>
+  </section>
+
+  <!-- Contact Full -->
+  <section class="contact-full">
+    <div class="container">
+      <div class="contact-details">
+        <h2 data-i18n="contact.reach">So erreichen Sie mich</h2>
+        <p data-i18n="contact.intro">Ich freue mich auf Ihre Nachricht und beantworte gerne alle Ihre Fragen rund um meine Leistungen.</p>
+        
+        <div class="contact-list">
+          <div class="contact-list-item">
+            <div class="icon">📍</div>
+            <div>
+              <h4 data-i18n="contact.location">Standort</h4>
+              <p>29640 Schneverdingen</p>
+            </div>
+          </div>
+          
+          <div class="contact-list-item">
+            <div class="icon">📞</div>
+            <div>
+              <h4 data-i18n="contact.phone">Telefon</h4>
+              <p><a href="tel:+4915120843434">+49 151 208 43 434</a></p>
+            </div>
+          </div>
+          
+          <div class="contact-list-item">
+            <div class="icon">✉️</div>
+            <div>
+              <h4 data-i18n="contact.email">E-Mail</h4>
+              <p><a href="mailto:nata.if.ua@gmail.com">nata.if.ua@gmail.com</a></p>
+            </div>
+          </div>
+          
+          <div class="contact-list-item">
+            <div class="icon">📷</div>
+            <div>
+              <h4>Instagram</h4>
+              <p><a href="https://instagram.com/nata.liia.bab" target="_blank">@nata.liia.bab</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div style="margin-top: var(--spacing-lg); padding: var(--spacing-md); background: var(--color-bg-alt); border-radius: var(--radius-lg);">
+          <h4 style="margin-bottom: var(--spacing-sm);" data-i18n="contact.mobile.title">Mobile Fußpflege</h4>
+          <p style="margin: 0; color: var(--color-text-light);" data-i18n="contact.mobile.text">Für Senioren und Personen mit eingeschränkter Mobilität biete ich auch Hausbesuche an. Kontaktieren Sie mich für weitere Informationen.</p>
+        </div>
+      </div>
+
+      <div class="contact-form-section">
+        <h3 data-i18n="contact.form.title">Nachricht senden</h3>
+        <form id="contact-form">
+          <div class="form-group">
+            <label for="name" data-i18n="contact.form.name">Name *</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email" data-i18n="contact.form.email">E-Mail *</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="phone" data-i18n="contact.form.phone">Telefon</label>
+            <input type="tel" id="phone" name="phone">
+          </div>
+          <div class="form-group">
+            <label for="service" data-i18n="contact.form.service">Gewünschte Leistung</label>
+            <select id="service" name="service" style="width: 100%; padding: 0.875rem; font-family: var(--font-body); font-size: 1rem; border: 1px solid var(--color-bg-alt); border-radius: var(--radius-md); background: var(--color-white);">
+              <option value="" data-i18n="contact.form.select">Bitte auswählen...</option>
+              <option value="medizinische">Medizinische Fußpflege (40 €)</option>
+              <option value="hygienische">Hygienische Fußpflege (30 €)</option>
+              <option value="hygienische-lack">Hygienische Fußpflege + Lack (35 €)</option>
+              <option value="gel-lack">Fußpflege mit Gel-Lack (40 €)</option>
+              <option value="mobile">Mobile Fußpflege (40 €)</option>
+              <option value="manikuere">Hygienische Maniküre (15 €)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message" data-i18n="contact.form.message">Nachricht *</label>
+            <textarea id="message" name="message" required data-i18n-placeholder="contact.form.placeholder" placeholder="Ihre Nachricht oder bevorzugter Terminwunsch..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width: 100%;" data-i18n="contact.form.submit">Nachricht senden</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <div class="logo-badge small">
+            <span class="logo-title">Fußpflege<br>Studio</span>
+            <span class="logo-subtitle">von Nataliia Babii</span>
+          </div>
+          <p data-i18n="footer.tagline">Professionelle Fußpflege für Ihre Gesundheit und Schönheit.</p>
+        </div>
+        <div class="footer-links">
+          <h4 data-i18n="footer.nav">Navigation</h4>
+          <ul>
+            <li><a href="index.html" data-i18n="nav.home">Startseite</a></li>
+            <li><a href="leistungen.html" data-i18n="nav.services">Leistungen</a></li>
+            <li><a href="ueber-mich.html" data-i18n="nav.about">Über mich</a></li>
+            <li><a href="kontakt.html" data-i18n="nav.contact">Kontakt</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4 data-i18n="footer.contact">Kontakt</h4>
+          <address>
+            <p>📍 29640 Schneverdingen</p>
+            <p>📞 <a href="tel:+4915120843434">+49 151 208 43 434</a></p>
+            <p>✉️ <a href="mailto:nata.if.ua@gmail.com">nata.if.ua@gmail.com</a></p>
+            <p>📷 <a href="https://instagram.com/nata.liia.bab" target="_blank">@nata.liia.bab</a></p>
+          </address>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p data-i18n="footer.copyright">&copy; 2026 Fußpflege Studio von Nataliia Babii. Alle Rechte vorbehalten.</p>
+        <div class="footer-legal">
+          <a href="#" data-i18n="footer.imprint">Impressum</a>
+          <a href="#" data-i18n="footer.privacy">Datenschutz</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
