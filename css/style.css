@@ -1208,7 +1208,7 @@ p {
     width: 150px;
     height: 150px;
     position: absolute;
-    top: 20px;
+    bottom: -30px;
     right: 20px;
     margin: 0;
     flex-shrink: 0;
