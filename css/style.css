@@ -1196,6 +1196,10 @@ p {
     padding-top: 120px;
   }
   
+  .hero-image {
+    position: relative;
+  }
+  
   .hero-photo {
     max-width: 100%;
   }
@@ -1203,10 +1207,21 @@ p {
   .hero-badge {
     width: 150px;
     height: 150px;
-    position: relative;
-    bottom: auto;
-    right: auto;
-    margin-top: var(--spacing-md);
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    margin: 0;
+    flex-shrink: 0;
+    animation: bounce 2s ease-in-out infinite;
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-15px);
+    }
   }
   
   .badge-years {
