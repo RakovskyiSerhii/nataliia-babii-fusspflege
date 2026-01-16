@@ -151,3 +151,71 @@ Dieser Service ist speziell für Menschen gedacht, die Komfort, Sicherheit und i
 
 Гігієнічний манікюр не лише підтримує естетичний вигляд, а й допомагає запобігти дискомфорту та зміцнити нігті. Ідеальний варіант для тих, хто цінує охайність, доглянутість та комфорт своїх рук щодня.
 
+---
+
+## Sterilization of Instruments (Стерилізація інструментів)
+
+### Ukrainian
+
+Стерилізація інструментів у педикюрі проводиться з метою запобігання передачі інфекційних захворювань та забезпечення безпеки клієнта і майстра. Обробка інструментів складається з трьох основних етапів.
+
+**1. Передстерилізаційна обробка**
+
+Після використання інструменти негайно проходять передстерилізаційну обробку, яка включає:
+- механічне очищення інструментів від залишків шкіри, пилу та біологічних забруднень;
+- замочування в дезінфікуючому розчині відповідно до інструкції виробника (концентрація та час витримки);
+- промивання інструментів під проточною водою;
+- ретельне висушування одноразовими серветками або на повітрі.
+
+Метою цього етапу є знищення більшості мікроорганізмів і підготовка інструментів до стерилізації.
+
+**2. Стерилізація в сухожаровій шафі**
+
+Після передстерилізаційної обробки та висушування інструменти:
+- пакуються в крафт-пакети з індикаторами стерилізації або викладаються на металеві лотки;
+- поміщаються в сухожарову шафу;
+- стерилізуються при температурі 180 °C протягом 60 хвилин (залежно від режиму та рекомендацій обладнання).
+
+Сухожарова стерилізація забезпечує повне знищення бактерій, вірусів, грибків і спор.
+
+**3. Зберігання інструментів**
+
+Після завершення стерилізації:
+- інструменти зберігаються в закритих крафт-пакетах до моменту використання;
+- стерильні пакети відкриваються безпосередньо перед клієнтом;
+- термін зберігання стерильних інструментів дотримується згідно з санітарними нормами.
+
+Цей етап гарантує збереження стерильності інструментів до наступної процедури.
+
+### German (Translation needed)
+
+Die Sterilisation der Instrumente in der Fußpflege erfolgt, um die Übertragung von Infektionskrankheiten zu verhindern und die Sicherheit von Kunde und Fachkraft zu gewährleisten. Die Aufbereitung der Instrumente besteht aus drei Hauptschritten.
+
+**1. Vorsterilisation**
+
+Nach der Verwendung durchlaufen die Instrumente sofort eine Vorsterilisation, die umfasst:
+- mechanische Reinigung der Instrumente von Hautresten, Staub und biologischen Verunreinigungen;
+- Einweichen in einer Desinfektionslösung gemäß Herstelleranleitung (Konzentration und Einwirkzeit);
+- Spülen der Instrumente unter fließendem Wasser;
+- gründliches Trocknen mit Einwegtüchern oder an der Luft.
+
+Das Ziel dieser Phase ist die Abtötung der meisten Mikroorganismen und die Vorbereitung der Instrumente für die Sterilisation.
+
+**2. Sterilisation im Trockensterilisator**
+
+Nach der Vorsterilisation und dem Trocknen werden die Instrumente:
+- in Kraftbeutel mit Sterilisationsindikatoren verpackt oder auf Metallschalen gelegt;
+- in den Trockensterilisator gelegt;
+- bei 180 °C für 60 Minuten sterilisiert (je nach Modus und Geräteempfehlungen).
+
+Die Trockensterilisation gewährleistet die vollständige Abtötung von Bakterien, Viren, Pilzen und Sporen.
+
+**3. Lagerung der Instrumente**
+
+Nach Abschluss der Sterilisation:
+- werden die Instrumente in verschlossenen Kraftbeuteln bis zur Verwendung gelagert;
+- werden sterile Beutel direkt vor dem Kunden geöffnet;
+- wird die Lagerdauer steriler Instrumente gemäß den Hygienevorschriften eingehalten.
+
+Diese Phase garantiert die Aufrechterhaltung der Sterilität der Instrumente bis zur nächsten Behandlung.
+

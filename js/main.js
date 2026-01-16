@@ -156,6 +156,15 @@ document.addEventListener('DOMContentLoaded', function() {
       'contact.form.message': 'Nachricht *',
       'contact.form.placeholder': 'Ihre Nachricht oder bevorzugter Terminwunsch...',
       'contact.form.submit': 'Nachricht senden',
+      // Hygiene
+      'hygiene.title': 'Hygiene und Sicherheit',
+      'hygiene.intro': 'Ihre Sicherheit und Gesundheit stehen an erster Stelle. Alle Instrumente werden nach höchsten Hygienestandards aufbereitet.',
+      'hygiene.step1.title': 'Vorsterilisation',
+      'hygiene.step1.desc': 'Nach jeder Verwendung werden alle Instrumente sofort mechanisch gereinigt, in einer Desinfektionslösung eingeweicht, unter fließendem Wasser gespült und gründlich getrocknet.',
+      'hygiene.step2.title': 'Sterilisation im Trockensterilisator',
+      'hygiene.step2.desc': 'Alle Instrumente werden in speziellen Verpackungen mit Sterilisationsindikatoren bei 180 °C für 60 Minuten sterilisiert. Dies gewährleistet die vollständige Abtötung aller Bakterien, Viren, Pilze und Sporen.',
+      'hygiene.step3.title': 'Sichere Lagerung',
+      'hygiene.step3.desc': 'Sterile Instrumente werden in verschlossenen Verpackungen gelagert und erst direkt vor Ihrer Behandlung geöffnet. Alle Hygienevorschriften werden strikt eingehalten.',
     },
     uk: {
       // Navigation
@@ -292,6 +301,15 @@ document.addEventListener('DOMContentLoaded', function() {
       'contact.form.message': 'Повідомлення *',
       'contact.form.placeholder': 'Ваше повідомлення або бажаний час запису...',
       'contact.form.submit': 'Надіслати',
+      // Hygiene
+      'hygiene.title': 'Гігієна та безпека',
+      'hygiene.intro': 'Ваша безпека та здоров\'я на першому місці. Всі інструменти обробляються за найвищими стандартами гігієни.',
+      'hygiene.step1.title': 'Передстерилізаційна обробка',
+      'hygiene.step1.desc': 'Після кожного використання всі інструменти негайно проходять механічне очищення, замочування в дезінфікуючому розчині, промивання під проточною водою та ретельне висушування.',
+      'hygiene.step2.title': 'Стерилізація в сухожаровій шафі',
+      'hygiene.step2.desc': 'Всі інструменти стерилізуються в спеціальних упаковках з індикаторами стерилізації при температурі 180 °C протягом 60 хвилин. Це забезпечує повне знищення всіх бактерій, вірусів, грибків та спор.',
+      'hygiene.step3.title': 'Безпечне зберігання',
+      'hygiene.step3.desc': 'Стерильні інструменти зберігаються в закритих упаковках та відкриваються лише безпосередньо перед вашою процедурою. Всі санітарні норми дотримуються суворо.',
     }
   };
 
